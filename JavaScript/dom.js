@@ -41,16 +41,49 @@ for (let i = 0; i < box.length; i++) {
 // Create a heading and a button. When the button is clicked, change the heading’s text, text
 // colour, background colour, and font size.
 
-    const heading=document.querySelector("#heading");
-    const editHeader=document.querySelector("#editHeader");
-
-    editHeader.addEventListener("click",()=>{
-       
-    })
+const heading = document.querySelector("#heading");
+const editHeader = document.querySelector("#editHeader");
+let isEdited = false;
+editHeader.addEventListener("click", () => {
+	if (isEdited != true) {
+		heading.innerText = "Hi My name is Esmon Thapa";
+		heading.classList.add("editedHeader");
+		editHeader.innerText = "Reset";
+		isEdited = true;
+	} else {
+		heading.innerText = "Hello World";
+		heading.classList.remove("editedHeader");
+		editHeader.textContent = "Edit Header";
+		isEdited = false;
+	}
+});
 
 // Create a box that changes its background colour and size when the mouse hovers over it. Return
 // it to its original design when the mouse leaves.
 
+const box2 = document.querySelectorAll(".box2");
+for (let i = 0; i < box2.length; i++) {
+	box2[i].addEventListener("mouseover", () => {
+		box2[i].classList.add("editedBox");
+	});
+}
+
 // Create two buttons named Increase and Decrease with a number displayed between them. Increase
 // or decrease the number when the corresponding button is clicked. Do not allow the number to go
-//  below zero.
+//  below zero
+const incBtn=document.querySelector("#increment");
+const decBtn=document.querySelector("#decrement");
+const count=document.querySelector("#count");
+let num=0;
+incBtn.addEventListener("click",()=>{
+	num++;
+	count.innerText=num;
+})
+decBtn.addEventListener("click",()=>{
+	if(count.innerText==0){
+		return
+	} else{
+		num--;
+		count.innerText=num;
+	}
+})
