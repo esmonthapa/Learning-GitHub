@@ -1,0 +1,13 @@
+.radio-container {
+    border: 1px solid black;
+    height: 400px;
+  /* position: relative; */
+  padding-left: 30px; /* Make space for the moved radio */
+}
+
+.radio-container input[type="radio"] {
+  position: absolute;
+  left: 50px;
+  top: 80px; /* Moves the radio button independently */
+}
+

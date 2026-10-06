@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #FF6E00;
+    display: flex;
+    padding: 18px 80px;
+    justify-content: space-between;
+    color:white;
+    align-items: center;
+}
+.navbar .nav-logo a{
+    text-decoration: none;
+    color:white;
+}
+.nav-items{
+    display: flex;
+    gap:48px;
+    font-size: 1.15rem;
+    align-items: center;  
+}
+.nav-items a{
+    text-decoration: none;
+    color:white;
+}
+.nav-icons{
+    display: flex;
+    gap:40px;
+    color:white;
+}
+.nav-icons .font-size{
+    font-weight: 100;
+}
+
+/* Hero Section CSS */
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    padding:24px 80px;
+    gap:30px;
+}
+.hero-section .item-section{
+    display: grid;
+    /* grid-auto-rows: 400px; */
+    grid-template-columns: repeat(4,1fr);
+    gap:22px;
+}
+.item-section .item{
+    border: 1px solid #DEDEDE;
+    padding:10px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;   
+}
+.item .image-area{
+    height: 224px;  
+}
+.item .image-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* Footer CSS */
+.footer{
+    display:flex;
+    padding:24px 80px;
+    flex-direction: column;
+    background-color: #FF6E00;
+    margin-top: 60px;
+    color:white;
+}
+.footer .upper-side{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.upper-side .brand-info{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.upper-side .gap{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.upper-side .quick-links a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.05rem;
+}
+.upper-side .contact-info .phone,
+.upper-side .contact-info .email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:8px;
+    font-size: 1.05rem;
+}
+.socialmedia .media-icons{
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+.socialmedia .media-icons i{
+    /* border:4px solid white;
+    border-radius: 50%;
+    height:20px;
+    width:20px; */
+    font-size: 1.75rem;
+}
+
+.footer .bottom-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid white;
+    gap:4px;
+}

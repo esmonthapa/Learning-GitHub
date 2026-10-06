@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: #a0a0a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.box{
+    background-color: white;
+    height:500px;
+    width:500px;
+    /* border:1px solid black; */   
+    border-radius: 8px;
+    position: relative;
+}
+.new{
+    background-color: #a0a0a0;
+    padding:5px;
+    color:black;
+    position:absolute;
+    top: 16px;
+    left:16px;
+    border-radius: 8px;
+}
+.image{
+    height:225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#86b9b0;
+    border-radius: 8px 8px 0px 0px;
+    /* overflow: hidden; */
+}
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:50px;
+    /* display: block; */
+}
+#time,#about{
+    padding:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(104, 128, 150);
+    padding-right:30px;
+}
+#title{
+    color:purple;
+    padding:none;
+    padding-left:20px;
+}
+.display{
+    display: flex;
+}
+.card{
+    /* background-color: pink; */
+    /* margin-top: 6px; */
+    padding:7px 30px 0px 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid purple;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-text p{
+    font-size: 1.35rem;
+    color:purple;
+}
+.card-reaction{
+    gap:15px;
+}
+.comments,.like{
+    /* background-color: blue; */
+    gap:4px;
+    font-size: 1.5rem;
+    align-items: center;    
+}
+.material-symbols-outlined{
+    color:purple;
+}
+.inc{
+    font-size: 1.65rem;
+}
+.icon{
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    background-color: green;
+    padding:10px;
+    border-radius: 8px;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caacupe One", sans-serif;
+}
+.homepage{
+    padding: 24px 80px;
+}
+.navBar{
+    /* background-color: black; */
+    color:#000000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 22px;    
+}
+h2{
+    color:#F24E1A;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+
+}
+.nav-items{
+    display:flex;
+    gap:44px;
+}
+#signup{
+    padding:10px;
+    background-color:rgb(241, 136, 66);
+    border:none;
+    border-radius: 20px;
+    color:white;
+    width:84px;
+    height:38px;   
+}
+button:hover{
+    cursor: pointer;
+}
+.container{
+    background-color: #ffffff;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-container{
+    width:552px;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    font-family: "Poppins", sans-serif;
+}
+.image-container{
+    background-color: yellow;
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+}
+.image-container img{
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+}
+#catchyline{
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 82px;
+}
+#supportive-catchy{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color:rgb(241, 136, 66);
+}
+#text{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2%;
+}
+#getstarted{
+    border-radius: 5px;
+    width:123px;
+    height:36px;
+    background-color:rgb(241, 136, 66);
+    color:white;
+    border:none;
+}

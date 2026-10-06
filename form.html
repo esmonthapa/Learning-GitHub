@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <div class="header">
+            <h2 >Interested candidate are requested to fill up the following form:</h2>
+        </div>
+        <label for="fullname">Full Name <sup>*</sup></label>
+        <input type="text" id="fullname" placeholder="Your name">
+        <label for="email">Email <sup>*</sup></label>
+        <input type="email" id="email" placeholder="Your email">
+        <label for="contact">Phone Number <sup>*</sup></label>
+        <input type="number" id="contact" placeholder="98XXXXXXXX">
+        <div class="course">                              
+           <label for="course">Select Course: </label>
+           <select name="course" id="course">
+                <option value="" selected>MERN Stack</option>
+                <option value="">MEAN Stack</option>
+                <option value="">UI/UX Design</option>
+                <option value="">Java</option>
+            </select>
+        </div>  
+        <div class="gender">
+            <p>Gender</p>
+            <div id="gender-options">
+            <span>
+                <input type="radio" name="Gender" id="male" value="male">
+                <label for="male">Male</label>
+            </span>
+            <span>
+                <input type="radio" name="Gender" id="female" value="female">
+                <label for="female">Female</label>
+            </span>
+            <span>
+                <input type="radio" name="Gender" id="other" value="other">
+                <label for="other">Other</label>
+            </span>
+            </div>
+        </div>
+        <div class="skills">
+            <p>Skills</p>
+            <div id="skills-options">
+            <span>
+                <input type="checkbox" id="HTML">
+                <label for="HTML">HTML</label>
+            </span>
+            <span>
+                <input type="checkbox" id="CSS">
+                <label for="CSS">CSS</label>
+            </span>
+            <span>
+                <input type="checkbox" id="JavaScript">
+                <label for="JavaScript">JavaScript</label>
+            </span>
+            <span>
+                <input type="checkbox" id="React">
+                <label for="React">React</label>
+            </span>
+            <span>
+                <input type="checkbox" id="Nodejs">
+                <label for="Nodejs">Node.js</label>
+            </span>
+            </div>
+        </div>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" id="DOB">
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="Enter your address">
+        <label for="">Choose Picture</label>
+        <input type="file" accept="image/*" id="image">
+        <div class="submit-btn">
+        <button id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>          

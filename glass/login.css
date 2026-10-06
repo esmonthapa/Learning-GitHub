@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./ocean.avif");
+    background-color: rgba(0, 0, 0, 0.413);
+    background-blend-mode:color-burn;
+    background-size: cover;
+    background-position: center;
+}
+.signup-container{
+    background-color: white;
+    margin:100px 0px 100px 0px;
+}
+.text-area{
+    width:35%;
+    background-color: transparent;
+    /* margin:10px; */
+    display: flex;
+    flex-direction: column;
+    gap:350px;
+    padding: 40px 55px;
+    border: 10px solid white;
+    /* border-radius: 16px; */
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.text-area .logo h3{
+    color:white;
+    font-size: 1.5rem;
+}
+.text-area h1{
+    font-size: 2rem;
+    color:white;
+}
+.text-area .footer-text{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.text-area .text {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.signup-area{
+    padding:146px 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remember .remember-check{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.remember .remember-check p{
+    padding-bottom: 2px;
+    font-size: 1rem;
+}
+.signin-btn{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.signup-area p{
+    text-align: center;
+}
+.signup-area h3{
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 4px  ;
+}
+.signup-area .header-text p{
+     font-size: 1.05rem;
+     color:#a0a0a0;
+}
+.signup-area .email,.password{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15rem;
+    gap:4px;
+}
+.signup-area .email input,.password input{
+    padding:8px;
+    border-radius: 4px;
+    border: 1px solid #a0a0a0;
+}
+.signup-area .signin-btn button{
+    font-size: 1.15rem;
+    padding:8px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.signup-area .signin-btn button:hover{
+    cursor: pointer;
+}
+.signup-area .signin-btn #signin{
+    background-color: rgb(2, 75, 2);
+    color: white;
+}
+a{
+    font-weight: 700;
+    color:rgb(2, 75, 2);
+}
+img{
+    height: 21px;
+}
+
+/* .ka{
+    background-image: url();
+    background-color: black;
+    background-blend-mode: ;
+} */

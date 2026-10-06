@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/* .border{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+ body{
+    background-color: #ece8e8;
+ }
+ .border{
+    border:1px solid transparent;
+        padding:8px 5px;
+}
+.border:hover{
+    cursor: pointer;
+    border:1px solid white;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* gap: 30px   ; */
+}
+
+.nav-logo{
+    height:55px;
+    padding:0px 0px;
+    /* padding:5px; */
+}
+.nav-logo img{
+    height:100%;
+    /* object-fit: cover; */
+}
+.nav-location{
+    color:white;
+    /* lin */
+    /* padding: 0px 10px; */
+}
+.nav-location .address{
+    display: flex;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-top: -3px;
+}
+.nav-location #text{
+    font-size: 0.95rem;
+    padding-left:25px;
+    color:#a0a0a0;
+}
+.add-second #add{
+    padding-left: 2px;
+}
+.nav-search{
+    /* background-color: pink; */
+    /* padding:0px 4px 0px 3px; */
+    height:100%;
+    display: flex;
+    flex-direction: row;
+        border: 1px solid transparent;
+        /* border-radius: 4px; */
+}
+.nav-search:hover{
+    border:1px solid orange;
+    border-radius: 5px;
+}
+.nav-search input{
+    padding:7px 10px 10px 5px;
+    width:770px;
+    border:none;
+    font-size: 1rem;
+}
+.nav-search select{
+    font-size: 0.90rem;
+    border: none;
+    background-color: #eae6e6;
+    width:6%;
+    text-align: center;
+    /* padding:5px; */
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.nav-search select:hover{
+    background-color:#eae6e0f3;
+    cursor: pointer;
+}
+.nav-search button{
+    font-size: 1.25rem;
+    padding:4px;
+    height:100%;
+    width:45px;
+    background-color: rgb(235, 174, 42);
+    border:none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search button:hover{
+    cursor: pointer;
+    background-color: rgba(235, 174, 42, 0.918);
+}
+.nav-signin,.nav-order{
+    /* background-color: pink; */
+    color:white;
+}
+.txt1{
+    font-size: 0.9rem;
+}
+.txt2{
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-top: -3px;
+}
+.nav-cart{
+    color:white;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding:12px 5px;
+
+}
+.nav-cart i{
+    font-size: 1.5rem;
+}
+.nav-cart p{
+    padding-top:7px;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+
+/* Second nav css */
+
+.sec-nav{
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    padding: 0px 16px;
+    /* font-size: 1.05rem; */
+    gap:10px;
+    height:42px;
+}
+.sec-nav .all{
+    display: flex;
+    align-items: center;
+    gap:3px;
+    padding:10px 5px 11px;
+}
+.sec-nav-items{
+    display: flex;
+    gap:10px;
+    
+}
+.all span{
+    font-size: 1.05rem;
+}
+.sec-nav-border{
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding:10px 5px;
+}
+.sec-nav-border:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* Hero Section CSS */
+
+.hero-section{
+    background-image:linear-gradient(to bottom, rgba(227, 230, 230, 0) 60%, rgba(227, 230, 230, 1) 100%),
+    url("./image/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px;
+    margin: 0px 10px;
+    padding-top: 250px ;
+    position: relative;
+}
+.box-section{
+    background-color: transparent;
+    display: flex;
+    /* position: absolute; */
+    /* top:42%; */
+    width:100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: white;
+    /* border:2px solid black; */
+    width:23.5%;
+    padding:20px 15px;
+    display: flex;
+    flex-direction: column;  
+    gap:12px;
+    position: relative; 
+    height: 420px;
+    margin-bottom: 18px;
+        /* flex-wrap: wrap;  */
+    /* justify-content: space-between;    */
+}
+.cooker-img{
+    width:100%;
+    /* height:40%; */
+    display: flex;
+    flex-direction: column;
+}
+.cooker-img img{
+    /* height:100%; */
+    width:100%;
+    height:135px;
+    object-fit: cover;
+}
+.rem-img{
+    display: flex;
+    width:100%;
+    height:25%;
+    justify-content: space-between;
+}
+.size{
+    width:32.5%;
+    height:40%;
+}
+.size img{
+    width:100%;
+    height:70px;
+    object-fit: cover;
+}
+.box h3{
+    font-size: 1.5rem;
+}
+.box p{
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-top: 1px;
+}
+.box a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    color:#2162a1;
+    position: absolute;
+    left:15px;
+    bottom:20px;
+    font-weight: 500;
+}
+.box .img-deco{
+    width:100%;
+}
+.box .img-deco img{
+    width:100%;
+    height: 290px;
+    object-fit: cover;
+}
+.box .first-img{
+    display: flex;
+    justify-content: space-between;
+}
+.box .first-img .first-left-img,
+.box .first-img .first-right-img{
+    width:47%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+.box .first-img .first-left-img img,
+.box .first-img .first-right-img img{
+    width:100%;
+    height: 110px;
+    /* object-fit: contain; */
+}
+.box .second-img{
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.box .second-img .second-left-img,
+.box .second-img .second-right-img{
+    width:47%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+.box .second-img .second-left-img img,
+.box .second-img .second-right-img img{
+    width:100%;
+    height:110px; 
+    /* object-fit: contain;    */
+}
+.box .first-img p,.second-img p{
+    font-size: 0.9rem;
+}
+
+.box .first-img .diff img,
+.box .second-img .diff img{
+    height:98px;
+}
+.box .top-mar{
+    margin-top:10px;
+}
+
+/* Horizontal Container CSS */
+.hero-section .horz-container{
+    padding:20px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 18px;
+    margin-bottom: 18px;
+    gap:5px;
+}
+.horz-container .img-container{
+    height:200px;
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    /* background-color: black; */
+    /* color:white; */
+    display: flex;
+    justify-content: space-between;
+    height:8vh;
+    align-items: center;
+    padding:0px 70px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.nav-items{
+    display: flex;
+    gap:44px;
+    font-size: 24px;
+}
+button{
+    padding:10px 20px;
+    border:none;
+    color:black;
+    background-color: transparent;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+.register{
+    display: flex;
+    gap:10px;
+}
+.register #signup-btn{
+    background-color: coral;
+    border-radius: 12px;
+    color:white;
+}
+.register #signup-btn:hover,
+.buy-btn button:hover{
+    background-color: rgba(255, 127, 80, 0.689);
+}
+.hero{
+    /* background-color: #a0a0a0; */
+    height:92vh;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 70px 100px 70px;
+    align-items: center;
+}
+.textarea{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+    /* justify-content: center; */
+}
+.imagearea{
+    margin-right:150px;
+    /* border: 1px solid brown; */
+    height:500px;
+    width:350px;
+}
+.imagearea img{
+    height:100%;
+    width:100%;
+}
+.textarea h3{
+    font-size: 30px;
+    color:skyblue;
+}
+.textarea p{
+    font-size: 48px;
+    letter-spacing: 10%;
+    font-weight: 300;
+}
+
+.buy-btn button{
+    background-color: coral;
+    border-radius: 12px;
+    margin-top:30px;
+    color:white;
+    /* padding:10px 20px; */
+}
